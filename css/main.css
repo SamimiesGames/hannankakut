@@ -25,9 +25,9 @@
 
   /* Colour assignments */
   --stand-out-tone: var(--dodger-blue);
-  --background-color: var(--trypan-blue);
+  --background-color: var(--byzantine);
   --highlight-color: var(--flickr-pink);
-  --button-color: var(--byzantine);
+  --button-color: var(--trypan-blue);
 }
 
 html {
