@@ -11,7 +11,9 @@ const CAKE_FORE_NAMES = [
   "tanskalainen", "laskiais", "voi",
   "rahka", "ranskalainen", "amerikkalainen",
   "suomalainen", "pipari", "ruotsalainen",
-  "saksalainen", "sateenkaari", "karamelli"
+  "saksalainen", "sateenkaari", "karamelli",
+  "tripla", "tupla", "extra", "pepperoni",
+  "sprinkles", "maitosuklaa"
 ]
 
 const CAKE_BACK_NAMES = [
