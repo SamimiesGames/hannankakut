@@ -1,10 +1,57 @@
 .cake {
-    background-color: var(--border-color);
-    color: var(--font-color2);
-    width: 300px;
-    border: 1px solid;
-    padding: 2.5%;
-    border-radius: 2.4vw;
-    margin: 2.5%;
-    
+  background-color: var(--border-color);
+  color: var(--font-color2);
+  width: 300px;
+  border: 1px solid;
+  padding: 2.5%;
+  border-radius: 2.4vw;
+  margin: 2.5%;
 }
+
+#products {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+
+@media (min-width: 576px) {
+  #products {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+    "c1"
+    "c2"
+    "c3"
+    "c1"
+    "c1"
+    "c1"
+    "c1"
+    "c1";
+  }
+}
+
+
+@media (min-width: 768px) {
+  #products {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "a b"
+    "c d"
+    "e f"
+    "g h";
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #products {
+    grid-template-areas:
+    "a b c d"
+    "e f g h";
+  }
+}
+
+
