@@ -10,6 +10,8 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import "hero-banner.css";
+
 
 :root {
   /* Theme colours */
@@ -28,12 +30,12 @@
   --background-color: var(--byzantine);
   --highlight-color: var(--flickr-pink);
   --button-color: var(--trypan-blue);
-  
+
 }
 
 html {
   background-color: var(--background-color);
-  font-size: 2em;
+  font-size: 2rem;
   line-height: 1.4;
   scroll-behavior: smooth;
   font-family: -apple-system, "Roboto", sans-serif;
