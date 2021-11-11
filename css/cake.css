@@ -23,9 +23,9 @@
     "c3"
     "c4"
     "c5"
-    "c1"
-    "c1"
-    "c1";
+    "c6"
+    "c7"
+    "c8";
   }
 }
 
@@ -35,10 +35,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
-    "a b"
-    "c d"
-    "e f"
-    "g h";
+    "c1 c2"
+    "c3 c4"
+    "c5 c6"
+    "c7 c8";
   }
 }
 
