@@ -10,6 +10,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import "shopping-cart.css";
 @import "hero-banner.css";
 @import "footer.css";
 @import "cake.css";
@@ -22,7 +23,7 @@
   --purple-2: #560badff;
   --trypan-blue: #480ca8ff;
   --trypan-blue-2: #3a0ca3ff;
-  --persian-blue: #3f37c9ff; 
+  --persian-blue: #3f37c9ff;
   --ultramarine-blue: #4361eeff;
   --dodger-blue: #4895efff;
 
@@ -36,6 +37,9 @@
   --font-color2: #333;
   --border-color: var(--ultramarine-blue);
 
+  /* font sizes */
+
+  --glyphicon-font-size: 4em;
 }
 
 html {
