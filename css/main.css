@@ -32,10 +32,11 @@
 
 html {
   background-color: var(--background-color);
-  font-size: 1em;
+  font-size: 2em;
   line-height: 1.4;
   scroll-behavior: smooth;
   font-family: -apple-system, "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 /*
