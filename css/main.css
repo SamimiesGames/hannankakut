@@ -12,6 +12,7 @@
    ========================================================================== */
 @import "hero-banner.css";
 @import "footer.css";
+@import "cake.css";
 
 :root {
   /* Theme colours */
