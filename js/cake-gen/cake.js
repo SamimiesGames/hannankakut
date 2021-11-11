@@ -1,9 +1,14 @@
-CAKE_LINK
+import { generateCakeName } from "./name.js";
+import { generateCakePrice } from "./price.js";
 
 
-class Cake {
+export class Cake {
   constructor(li_number) {
-    const link = `https://source.unsplash.com/1280x720/?cake`
+    this.link = `https://source.unsplash.com/${1280 + li_number}x${720 + li_number}/?cake`
+    this.li_number = li_number
+
+    this.name = generateCakeName()
+    this.price = generateCakePrice()
   }
 }
 
