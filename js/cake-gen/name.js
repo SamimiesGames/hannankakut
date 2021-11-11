@@ -19,8 +19,8 @@ const CAKE_FORE_NAMES = [
 const CAKE_BACK_NAMES = [
   ["kakku", "cake"], ["muffini", "muffin"],
   ["wiener", "danish+pastry"], ["donitsi", "donut"],
-  ["leivos", "pastry"], ["korvapuusti", "cinnamon+roll"],
-  ["kääre", "bun"]
+  ["leivos", "pastry"], ["korvapuusti", "muffin"],
+  ["kääre", "muffin"]
 ]
 
 const CAKE_FORE_NAME_COUNT_MAX = 6
