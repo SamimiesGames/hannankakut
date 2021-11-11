@@ -22,6 +22,9 @@
   --persian-blue: #3f37c9ff;
   --ultramarine-blue: #4361eeff;
   --dodger-blue: #4895efff;
+
+  /* Colour assignments */
+  --stand-out-tone: var(--dodger-blue);
 }
 
 
