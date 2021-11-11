@@ -15,9 +15,10 @@ const CAKE_FORE_NAMES = [
 ]
 
 const CAKE_BACK_NAMES = [
-  "kakku", "mufinni", "wiener",
-  "donitsi", "leivos", "korvapuusti",
-  "kääre"
+  ["kakku", "cake"], ["mufinni", "muffin"],
+  ["wiener", "wiener"], ["donitsi", "donut"],
+  ["leivos", "pastry"], ["korvapuusti", "cinnamon+roll"],
+  ["kääre", "roll"]
 ]
 
 const CAKE_FORE_NAME_COUNT_MAX = 6
@@ -35,12 +36,12 @@ function randomChoice(__iter) {
 
 export function generateCakeName() {
   const fore_name_length = randomInt(CAKE_FORE_NAME_COUNT_MIN, CAKE_FORE_NAME_COUNT_MAX)
-  const back_name = randomChoice(CAKE_BACK_NAMES)
+  const [back_name_fi, back_name_en] = randomChoice(CAKE_BACK_NAMES)
 
   let fore_names = []
   for(const x of new Array(fore_name_length)) {
     fore_names.push(randomChoice(CAKE_FORE_NAMES) + " ")
   }
 
-  return " ".concat(...fore_names) + `${back_name}`
+  return [" ".concat(...fore_names) + `${back_name_fi}`, back_name_en]
 }
