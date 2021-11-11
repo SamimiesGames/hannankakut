@@ -1,3 +1,3 @@
-import { scratch } from "./cake-gen/main.js";
+import { create_products } from "./cake-gen/main.js";
 
-scratch()
+create_products()

@@ -1,13 +1,21 @@
 import { Cake } from "./cake.js";
 
+const CAKE_AMOUNT = 8  // don't change from 8!!!!!!!!!!
 
 
-export function scratch() {
-  let i = 0
-  for(const x of new Array(5)) {
+export function create_products() {
+  let product_area = document.getElementById("products")
+  let i = 1
+  for(const x of new Array(CAKE_AMOUNT)) {
     let cake = new Cake(i)
-    console.log(cake.name, cake.price)
-    console.log(cake.link)
+
+    let dom_cake = cake.getElement()
+
+    dom_cake.style.gridArea = `c${i}`
+    dom_cake.hidden = false
+
+    product_area.appendChild(dom_cake)
+
     i++
   }
 }

@@ -9,9 +9,22 @@ export class Cake {
     const [name, search_query] = generateCakeName()
     this.name = name
     this.search_query = search_query
-    this.price = generateCakePrice()
+    this.price = `${generateCakePrice()}€`
 
     this.link = `https://source.unsplash.com/${1280 + li_number}x${720 + li_number}/?${this.search_query}`
   }
-}
 
+  getElement() {
+    const dom_cake = document.getElementById("dom-cake-product").cloneNode(true)
+
+    let cake_title = dom_cake.childNodes[1]
+    let cake_image = dom_cake.childNodes[3]
+    let cake_price = dom_cake.childNodes[4]
+    console.log(dom_cake.childNodes)
+    cake_title.textContent = this.name
+    cake_image.src = this.link
+    cake_price.textContent = this.price
+
+    return dom_cake
+  }
+}

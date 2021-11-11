@@ -11,14 +11,14 @@ const CAKE_FORE_NAMES = [
   "tanskalainen", "laskiais", "voi",
   "rahka", "ranskalainen", "amerikkalainen",
   "suomalainen", "pipari", "ruotsalainen",
-  "saksalainen", "sateenkaari", "volkano"
+  "saksalainen", "sateenkaari", "karamelli"
 ]
 
 const CAKE_BACK_NAMES = [
   ["kakku", "cake"], ["mufinni", "muffin"],
-  ["wiener", "wiener"], ["donitsi", "donut"],
+  ["wiener", "danish+pastry"], ["donitsi", "donut"],
   ["leivos", "pastry"], ["korvapuusti", "cinnamon+roll"],
-  ["kääre", "roll"]
+  ["kääre", "bun"]
 ]
 
 const CAKE_FORE_NAME_COUNT_MAX = 6
