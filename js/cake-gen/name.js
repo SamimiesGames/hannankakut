@@ -15,7 +15,7 @@ const CAKE_FORE_NAMES = [
 ]
 
 const CAKE_BACK_NAMES = [
-  "kakku", "mufinssi", "wiener",
+  "kakku", "mufinni", "wiener",
   "donitsi", "leivos", "korvapuusti",
   "kääre"
 ]
