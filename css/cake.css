@@ -1,0 +1,10 @@
+.cake {
+    background-color: var(--border-color);
+    color: var(--font-color2);
+    width: 300px;
+    border: 1px solid;
+    padding: 2.5%;
+    border-radius: 3vw;
+    margin: 2.5%;
+    
+}
