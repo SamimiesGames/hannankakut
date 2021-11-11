@@ -25,9 +25,10 @@
 
   /* Colour assignments */
   --stand-out-tone: var(--dodger-blue);
-  --background-color: var(--persian-blue);
+  --background-color: var(--trypan-blue);
+  --highlight-color: var(--flickr-pink);
+  --button-color: var(--byzantine);
 }
-
 
 html {
   background-color: var(--background-color);
@@ -280,4 +281,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
