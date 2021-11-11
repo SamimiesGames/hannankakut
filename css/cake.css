@@ -10,9 +10,6 @@
 
 #products {
   display: grid;
-
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
 }
 
 
@@ -24,8 +21,8 @@
     "c1"
     "c2"
     "c3"
-    "c1"
-    "c1"
+    "c4"
+    "c5"
     "c1"
     "c1"
     "c1";
@@ -48,6 +45,9 @@
 
 @media (min-width: 1200px) {
   #products {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
     grid-template-areas:
     "a b c d"
     "e f g h";
