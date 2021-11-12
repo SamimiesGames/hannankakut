@@ -1,11 +1,11 @@
 .hero-banner {
-  font-size: 2rem;
+  font-size: var(--quote-xl);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10%;
 }
 
 .hero-banner-quote {
-  font-size: .5rem;
+  font-size: var(--quote-sm);
 }
 

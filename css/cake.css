@@ -20,7 +20,7 @@
 .cake p {
   padding: 2.5%;
   margin: 2.5%;
-  font-size: 10em;
+  font-size: var(--quote-md);
 }
 
 .cake a {

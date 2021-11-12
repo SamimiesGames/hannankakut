@@ -41,10 +41,14 @@
   /* font sizes */
 
   --glyphicon-font-size: 4em;
+  --quote-sm: .5rem;
+  --quote-md: .75rem;
+  --quote-lg: 1.25rem;
+  --quote-xl: 2rem;
 }
 
 html {
-  font-size: 2rem;
+  font-size: var(--quote-xl);
   line-height: 1.4;
   scroll-behavior: smooth;
   font-family: -apple-system, "Roboto", sans-serif;

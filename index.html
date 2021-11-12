@@ -40,8 +40,10 @@
     <img alt="Delicious Pastry!" src="">
     <h1></h1>
     <p></p>
-    <a class="btn btn-primary" type="button">Osta</a>
+    <a class="btn btn-primary" type="button">Lisää ostoskoriin</a>
   </div>
+  <div id="cake-in-cart" hidden></div>
+  <div id="shopping-cart-content" hidden></div>
   <!-- DOM Templates -->
 
   <header class="hero-banner text-center">
@@ -49,7 +51,9 @@
     <p class="hero-banner-quote">Parasta kakkua.</p>
   </header>
   <main>
-    <span id="shopping-cart" class="glyphicon glyphicon-shopping-cart glass"></span>
+    <a href="#" data-toggle="popover" title="Ostokorisi" data-placement="bottom">
+      <span id="shopping-cart" class="glyphicon glyphicon-shopping-cart"></span>
+    </a>
     <section id="products">
       <!-- This is where all the cakes and wonderful pastries will be rendered. -->
     </section>
