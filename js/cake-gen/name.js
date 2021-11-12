@@ -26,7 +26,8 @@ const CAKE_BACK_NAMES = [
   ["leivos", "pastry"], ["korvapuusti", "danish+pastry"],
   ["kääryle", "cinnamon+bun"], ["sorbetti", "sorbet"],
   ["keksi", "cookie"], ["kuorrute", "frosting"],
-  ["croisantti", "croissant"], ["piirakka", "pie"]
+  ["croisantti", "croissant"], ["piirakka", "pie"],
+  ["kahvi", "coffee"], ["expresso", "expresso"]
 ]
 
 const CAKE_FORE_NAME_COUNT_MAX = 2
