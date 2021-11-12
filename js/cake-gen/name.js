@@ -13,14 +13,20 @@ const CAKE_FORE_NAMES = [
   "suomalainen", "pipari", "ruotsalainen",
   "saksalainen", "sateenkaari", "karamelli",
   "tripla", "tupla", "extra",
-  "sprinkles", "maitosuklaa"
+  "sprinkles", "maitosuklaa", "murskattu",
+  "käännetty", "eroteltu", "hollannin",
+  "voisilmä", "sokerikuorrutettu", "saksanpähkinä",
+  "maapähkinävoi", "toffee", "suolainen", "makea",
+  "rapea", "kostea"
 ]
 
 const CAKE_BACK_NAMES = [
   ["kakku", "cake"], ["muffini", "muffin"],
   ["wiener", "danish+pastry"], ["donitsi", "donut"],
   ["leivos", "pastry"], ["korvapuusti", "danish+pastry"],
-  ["kääre", "cinnamon+bun"], ["sorbetti", "sorbet"]
+  ["kääryle", "cinnamon+bun"], ["sorbetti", "sorbet"],
+  ["keksi", "cookie"], ["kuorrute", "frosting"],
+  ["croisantti", "croissant"], ["piirakka", "pie"]
 ]
 
 const CAKE_FORE_NAME_COUNT_MAX = 2

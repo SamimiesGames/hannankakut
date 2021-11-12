@@ -1,5 +1,5 @@
-const CAKE_PRICE_MIN = 10
-const CAKE_PRICE_MAX = 100
+const CAKE_PRICE_MIN = 1
+const CAKE_PRICE_MAX = 35
 
 
 function randomInt(min, max) { // min and max included
