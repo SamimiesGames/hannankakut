@@ -28,12 +28,9 @@
   --ultramarine-blue: #4361eeff;
   --dodger-blue: #4895efff;
 
-  /* gradients */
-  --cake-gradient: linear-gradient(var(--trypan-blue), var(--dodger-blue));
-
   /* Colour assignments */
-  --stand-out-tone: var(--dodger-blue);
-  --background-color: var(--persian-blue);
+  --stand-out-tone: whitesmoke;
+  --background-color: #e0e0e0;
   --highlight-color: var(--flickr-pink);
 
   --button-color: var(--trypan-blue);
