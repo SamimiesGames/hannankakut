@@ -1,7 +1,6 @@
 .cake {
   background-color: var(--border-color);
   color: var(--font-color2);
-  border: 1px solid;
   padding: 2.5%;
   border-radius: 2.4vw;
   margin: 2.5%;
@@ -10,7 +9,24 @@
 .cake img {
   max-width: 100%;
   max-height: 100%;
+  padding: 2.5%;
 }
+
+.cake h1 {
+  padding: 2.5%;
+  text-transform: capitalize;
+}
+
+.cake p {
+  padding: 2.5%;
+  font-size: 10em;
+}
+
+.cake a {
+  padding: 2.5%;
+  width: 75%;
+}
+
 
 #products {
   display: grid;

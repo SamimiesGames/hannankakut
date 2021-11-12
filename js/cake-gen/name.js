@@ -23,7 +23,7 @@ const CAKE_BACK_NAMES = [
   ["kääre", "cinnamon+bun"], ["sorbetti", "sorbet"]
 ]
 
-const CAKE_FORE_NAME_COUNT_MAX = 6
+const CAKE_FORE_NAME_COUNT_MAX = 2
 const CAKE_FORE_NAME_COUNT_MIN = 1
 
 
