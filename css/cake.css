@@ -29,6 +29,10 @@
   width: 75%;
 }
 
+.cake a:active {
+  background-color: lime !important;
+}
+
 
 #products {
   display: grid;

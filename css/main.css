@@ -12,6 +12,7 @@
    ========================================================================== */
 @import "shopping-cart.css";
 @import "glassmorphism.css";
+@import "cake-in-cart.css";
 @import "hero-banner.css";
 @import "footer.css";
 @import "cake.css";
@@ -40,7 +41,7 @@
 
   /* font sizes */
 
-  --glyphicon-font-size: 4em;
+  --glyphicon-font-size: 2em;
   --quote-sm: .5rem;
   --quote-md: .75rem;
   --quote-lg: 1.25rem;
