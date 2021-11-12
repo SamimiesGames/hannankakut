@@ -17,8 +17,8 @@ export class Cake {
   getElement() {
     const dom_cake = document.getElementById("dom-cake-product").cloneNode(true)
 
-    let cake_title = dom_cake.childNodes[1]  // <h1/>
-    let cake_image = dom_cake.childNodes[3]  // <img/>
+    let cake_title = dom_cake.childNodes[3]  // <h1/>
+    let cake_image = dom_cake.childNodes[1]  // <img/>
     let cake_price = dom_cake.childNodes[4]  // <p/>
     console.log(dom_cake.childNodes)
     cake_title.textContent = this.name
