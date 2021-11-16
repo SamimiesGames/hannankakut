@@ -1,14 +1,2 @@
 #shopping-cart {
-  position: fixed;
-  left: 85%;
-  top: 85%;
-  padding: 1%;
-  margin: 1%;
-  width: 13%;
-
-  border-radius: 1rem;
-
-  font-size: var(--glyphicon-font-size);
-  background-color: black;
-  opacity: 90%;
 }

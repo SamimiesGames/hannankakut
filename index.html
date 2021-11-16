@@ -46,14 +46,25 @@
   <div id="shopping-cart-content" hidden></div>
   <!-- DOM Templates -->
 
-  <header class="hero-banner text-center">
-    Hannan kakut
-    <p class="hero-banner-quote">Parasta kakkua.</p>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Hannankakut</a>
+        </div>
+        <div class="nav navbar-nav navbar-right">
+          <button id="shopping-cart" class="btn btn-danger navbar-btn text-center" href="#" data-toggle="popover" title="Ostokorisi" data-placement="bottom">
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section class="hero-banner text-center">
+      Hannan kakut
+      <p class="hero-banner-quote">Parasta kakkua.</p>
+    </section>
   </header>
   <main>
-    <a id="shopping-cart" class="text-center" href="#" data-toggle="popover" title="Ostokorisi" data-placement="top">
-      <span class="glyphicon glyphicon-shopping-cart"></span>
-    </a>
     <section id="products">
       <!-- This is where all the cakes and wonderful pastries will be rendered. -->
     </section>
