@@ -3,4 +3,4 @@ import { enableProductHeightMatching } from "./cake-equilizer.js";
 import "./shopping-cart/main.js";
 
 create_products()
-enableProductHeightMatching()
+// enableProductHeightMatching() BUG

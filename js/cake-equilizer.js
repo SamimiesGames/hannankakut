@@ -8,6 +8,7 @@ function equCakeHeight() {
   for(let node of cakes.childNodes) {
     console.debug("node: ", node)
     console.debug("nodes children:", node.childNodes, "\ncakes children:", cakes.childNodes)
+
     let node_h1 = node.childNodes[3]
     let offsetHeight = parseInt(node_h1.offsetHeight)
 
