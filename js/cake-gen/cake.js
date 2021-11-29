@@ -25,12 +25,12 @@ export class Cake {
     cake_image.src = this.link
     cake_price.textContent = this.price
 
-    this.addEventClick(dom_cake)
+    this.inShoppingCart(dom_cake)
 
     return dom_cake
   }
 
-  addEventClick(dom_cake) {
+  inShoppingCart(dom_cake) {
     let add_to_cart = dom_cake.childNodes[7]
     add_to_cart.onclick = () => {
       let shopping_cart_content = document.getElementById("shopping-cart-content")

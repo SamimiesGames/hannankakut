@@ -1,4 +1,4 @@
-const CAKE_FORE_NAMES = [
+const CAKE_ADJECTIVES = [
   "mansikka", "juusto", "suklaa",
   "porkkana", "banaani", "muro",
   "voileipä", "täyte", "hyytelö",
@@ -20,7 +20,7 @@ const CAKE_FORE_NAMES = [
   "rapea", "kostea"
 ]
 
-const CAKE_BACK_NAMES = [
+const CAKE_TYPES = [
   ["kakku", "cake"], ["muffini", "muffin"],
   ["wiener", "danish+pastry"], ["donitsi", "donut"],
   ["leivos", "pastry"], ["korvapuusti", "danish+pastry"],
@@ -30,8 +30,8 @@ const CAKE_BACK_NAMES = [
   ["kahvi", "coffee"], ["expresso", "expresso"]
 ]
 
-const CAKE_FORE_NAME_COUNT_MAX = 2
-const CAKE_FORE_NAME_COUNT_MIN = 1
+const CAKE_ADJ_COUNT_MAX = 2
+const CAKE_ADJ_COUNT_MIN = 1
 
 
 
@@ -44,13 +44,13 @@ function randomChoice(__iter) {
 }
 
 export function generateCakeName() {
-  const fore_name_length = randomInt(CAKE_FORE_NAME_COUNT_MIN, CAKE_FORE_NAME_COUNT_MAX)
-  const [back_name_fi, back_name_en] = randomChoice(CAKE_BACK_NAMES)
+  const adjective_amount = randomInt(CAKE_ADJ_COUNT_MIN, CAKE_ADJ_COUNT_MAX)
+  const [type_name, csq] = randomChoice(CAKE_TYPES)
 
-  let fore_names = []
-  for(const x of new Array(fore_name_length)) {
-    fore_names.push(randomChoice(CAKE_FORE_NAMES))
+  let adjectives = ""
+  for(const x of new Array(adjective_amount)) {
+    adjectives += randomChoice(CAKE_ADJECTIVES)
   }
 
-  return ["".concat(...fore_names) + `${back_name_fi}`, back_name_en]
+  return [`${adjectives}${type_name}`, csq]
 }
