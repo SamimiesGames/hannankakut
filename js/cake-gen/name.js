@@ -2,18 +2,18 @@ const CAKE_FORE_NAMES = [
   "mansikka", "juusto", "suklaa",
   "porkkana", "banaani", "muro",
   "voileipä", "täyte", "hyytelö",
-  "oreo", "daim", "omar",
-  "tyrkisk peber", "jäätelö",
+  "oreo-", "daim-", "omar-",
+  "tyrkisk peber -", "jäätelö",
   "hedelmä", "kinuski", "tummasuklaa",
-  "brita", "vaahtokarkki", "valkosuklaa",
+  "brita-", "vaahtokarkki", "valkosuklaa",
   "salmiakki", "lakritsi", "mustikka",
   "manteli", "muta", "marenki",
   "tanskalainen", "laskiais", "voi",
   "rahka", "ranskalainen", "amerikkalainen",
   "suomalainen", "pipari", "ruotsalainen",
   "saksalainen", "sateenkaari", "karamelli",
-  "tripla", "tupla", "extra",
-  "sprinkles", "maitosuklaa", "murskattu",
+  "tripla-", "tupla-", "extra-",
+  "sprinkles-", "maitosuklaa", "murskattu",
   "käännetty", "eroteltu", "hollannin",
   "voisilmä", "sokerikuorrutettu", "saksanpähkinä",
   "maapähkinävoi", "toffee", "suolainen", "makea",
@@ -49,8 +49,8 @@ export function generateCakeName() {
 
   let fore_names = []
   for(const x of new Array(fore_name_length)) {
-    fore_names.push(randomChoice(CAKE_FORE_NAMES) + " ")
+    fore_names.push(randomChoice(CAKE_FORE_NAMES))
   }
 
-  return [" ".concat(...fore_names) + `${back_name_fi}`, back_name_en]
+  return ["".concat(...fore_names) + `${back_name_fi}`, back_name_en]
 }
