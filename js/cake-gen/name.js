@@ -27,7 +27,7 @@ const CAKE_TYPES = [
   ["kääryle", "cinnamon+bun"], ["sorbetti", "sorbet"],
   ["keksi", "cookie"], ["kuorrute", "frosting"],
   ["croisantti", "croissant"], ["piirakka", "pie"],
-  ["kahvi", "coffee"], ["expresso", "expresso"]
+  ["kahvi", "coffee"], ["espresso", "espresso"]
 ]
 
 const CAKE_ADJ_COUNT_MAX = 2
